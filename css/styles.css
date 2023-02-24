@@ -1,12 +1,22 @@
 html {
     font-size: 62,5%;
+
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-image: url(/images/milad-fakurian-nY14Fs8pxT8-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 /* Header */
+
+header {
+    margin-top: auto;
+    margin-bottom: auto;
+}
 
 .container {
     display: flex;
@@ -18,33 +28,90 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #E0BBE4;
+    background-color: #d6d6d6;
+    border-radius: 20px;
     width: 25%;
     height: 90%;
     margin-left: 10%;
+    border: 1px solid rgba(255, 255, 255, .25);
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.133);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(15px);
 }
+
 
 .header-profil {
     text-align: center;
+    position: relative;
+    line-height: 3rem;
+    bottom: 10%;
 }
 
 .header-contact {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.3rem;
+    gap: 3rem;
     text-align: center;
+    margin-top: 5%;
+    margin-left: 3rem;
+}
+
+.separator {
+    background-color: #fff;
+    width: 60%;
+    height: 0.5px;
+    margin-left: 20%;
+    margin-right: auto;
+    margin-top: 10%;
 }
 
 .header-profil img {
+    display: block;
+    margin: auto;
     border-radius: 50%;
-    width: 50%;
+    width: 35%;
+    margin-bottom: 30px;
 }
 
-.header-contact-email img {
-    width: 10%;
+.header-profil h1 {
+    color: #fff;
+    font-size: 2rem;
 }
 
-.header-contact-github img {
-    width: 10%;
+.header-profil h3 {
+    color: #fff;
+    font-size: 1.4rem;
 }
 
-.header-contact-location img {
-    width: 10%;
+.header-contact-icon h3 {
+    color: #fff;
+}
+
+.header-contact-icon a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.header-contact-icon img:hover {
+    color: #ed1690;
+    filter: invert(30%) sepia(78%) saturate(7044%) hue-rotate(313deg) brightness(94%) contrast(98%);
+}
+
+.header-contact-icon img {
+    display: inline-block;
+    position: absolute;
+    left: 10%;
+    width: 3.5rem;
+    padding: 10px;
+    filter: invert(100%) sepia(0%) saturate(7493%) hue-rotate(307deg) brightness(95%) contrast(104%);
+    transition: .3s;
+    /* border-radius: 108px;
+    background: linear-gradient(145deg, #e5e5e5, #c1c1c1);
+    box-shadow:  15px 15px 30px #b6b6b6,
+                -15px -15px 30px #f6f6f6;
+    */
 }

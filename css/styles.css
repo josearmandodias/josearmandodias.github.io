@@ -1,0 +1,50 @@
+html {
+    font-size: 62,5%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+
+.container {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E0BBE4;
+    width: 25%;
+    height: 90%;
+    margin-left: 10%;
+}
+
+.header-profil {
+    text-align: center;
+}
+
+.header-contact {
+    text-align: center;
+}
+
+.header-profil img {
+    border-radius: 50%;
+    width: 50%;
+}
+
+.header-contact-email img {
+    width: 10%;
+}
+
+.header-contact-github img {
+    width: 10%;
+}
+
+.header-contact-location img {
+    width: 10%;
+}
